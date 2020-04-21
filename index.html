@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>typescript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .outer-box1 {
+            padding: 10px;
+        }
+
+        .inner-box1 {
+            min-height: 500px;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+        .outer-box2 {
+            margin-top: 15px;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            margin-bottom: 85px;
+        }
+
+        .inner-box2 {
+            background-color: lightskyblue;
+            height: 90vh;
+            background-image: url('images/ad.png');
+            background-size: contain;
+        }
+
+        .image-holder {
+            border-radius: 4px 4px 0px 0px;
+            padding: 5px 5px 0px 5px;
+            background-color: #201C1B;
+        }
+
+        .caption-box {
+            background-color: #191716;
+            color: white;
+            min-height: 60px;
+            padding: 1px 10px 10px 10px;
+            text-align: justify;
+            border-radius: 0px 0px 4px 4px;
+
+        }
+
+        .img-style {
+            max-height: 100vh;
+            max-width: 100%;
+        }
+
+        @media screen and (max-width: 768px) {
+            .adds {
+                display: none;
+            }
+
+            .img-style {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- contents here -->
+            <div class="col-sm-7 outer-box1">
+                <div class="inner-box1">
+                    <div class="image-holder">
+                        <center>
+                            <img src="images/juvia.png" class="img-style" />
+                        </center>
+                    </div>
+                    <div class="caption-box">
+                        <div class="caption-header">
+                            <h2><b>Title here</b></h2>
+                            <p>
+                                <i>by <a href="#">poster username</a> </i>
+                            </p>
+                        </div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions
+                            of
+                            Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="inner-box1">
+                        <div class="image-holder">
+                            <center>
+                                <img src="images/neir.jpg" class="img-style" />
+                            </center>
+                        </div>
+                        <div class="caption-box">
+                            <div class="caption-header">
+                                <h2><b>Title here</b></h2>
+                                <p>
+                                    <i>by <a href="#">poster username</a> </i>
+                                </p>
+                            </div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="inner-box1">
+                        <div class="image-holder">
+                            <center>
+                                <img src="images/erza2.png" class="img-style" />
+                            </center>
+                        </div>
+                        <div class="caption-box">
+                            <div class="caption-header">
+                                <h2><b>Title here</b></h2>
+                                <p>
+                                    <i>by <a href="#">poster username</a> </i>
+                                </p>
+                            </div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="inner-box1">
+                        <div class="image-holder">
+                            <center>
+                                <img src="images/mira.jpg" class="img-style" />
+                            </center>
+                        </div>
+                        <div class="caption-box">
+                            <div class="caption-header">
+                                <h2><b>Title here</b></h2>
+                                <p>
+                                    <i>by <a href="#">poster username</a> </i>
+                                </p>
+                            </div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="image-holder">
+                        <center>
+                            <img src="images/lucy.jpg" class="img-style" />
+                        </center>
+                    </div>
+                    <div class="caption-box">
+                        <div class="caption-header">
+                            <h2><b>Title here</b></h2>
+                            <p>
+                                <i>by <a href="#">poster username</a> </i>
+                            </p>
+                        </div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions
+                            of
+                            Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="inner-box1">
+                        <div class="image-holder">
+                            <center>
+                                <img src="images/neir2.jpg" class="img-style" />
+                            </center>
+                        </div>
+                        <div class="caption-box">
+                            <div class="caption-header">
+                                <h2><b>Title here</b></h2>
+                                <p>
+                                    <i>by <a href="#">poster username</a> </i>
+                                </p>
+                            </div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="inner-box1">
+                        <div class="image-holder">
+                            <center>
+                                <img src="images/neir3.jpg" class="img-style" />
+                            </center>
+                        </div>
+                        <div class="caption-box">
+                            <div class="caption-header">
+                                <h2><b>Title here</b></h2>
+                                <p>
+                                    <i>by <a href="#">poster username</a> </i>
+                                </p>
+                            </div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="inner-box1">
+                        <div class="image-holder">
+                            <center>
+                                <img src="images/erza.jpg" class="img-style" />
+                            </center>
+                        </div>
+                        <div class="caption-box">
+                            <div class="caption-header">
+                                <h2><b>Title here</b></h2>
+                                <p>
+                                    <i>by <a href="#">poster username</a> </i>
+                                </p>
+                            </div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-box1">
+                    <div class="inner-box1">
+                        <div class="image-holder">
+                            <center>
+                                <img src="images/juvia2.jpg" class="img-style" />
+                            </center>
+                        </div>
+                        <div class="caption-box">
+                            <div class="caption-header">
+                                <h2><b>Title here</b></h2>
+                                <p>
+                                    <i>by <a href="#">poster username</a> </i>
+                                </p>
+                            </div>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- adds here -->
+            <div class="col-sm-5 outer-box2 adds">
+                <div class="inner-box2">
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="for_index.js"></script>
+</body>
+
+</html>
