@@ -8,6 +8,6 @@
 <details>
   <summary>view image</summary>
   <p>
-    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/RaulS963/wt2/total">
+    <img alt="GitHub All Releases" src="https://i.imgur.com/Hs4ceFU.jpeg">
   </p>
 </details>
